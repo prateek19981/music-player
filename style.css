@@ -1,0 +1,418 @@
+
+
+/*styling for body*/
+
+body
+{
+	width: 100%;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	overflow-x:hidden;
+
+
+	
+}
+
+
+
+/*asidebar*/
+.sidebar
+{
+	float: right;
+	height: 100%;
+	width: 15%;
+	background-color: black;
+	position:absolute;
+	top: 30px;
+	left: 1150px;
+	padding-top: 16px;
+	overflow-y:scroll;
+	
+	
+	
+
+
+}
+
+/*carausel*/
+.one
+{
+
+	height: 200px;
+	width: 80%;
+	background-color: black;
+	position:absolute;
+	top: 10%;
+	display: flex;
+	left: 2%;
+
+
+}
+
+/*topnavbar*/
+.topnav {
+  position:fixed;
+  top:0;
+  width: 100%;
+  left: 0;
+  background-color: black;
+  overflow: hidden;
+  z-index: 1;
+
+}
+
+/*searchbar*/
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 200px;
+  font-size: 17px;
+  width: 300px;
+}
+
+/*bell icon*/
+#one
+{
+
+	font-size:30px;
+	color:blue;
+	transform: translate(1160px);
+	position: fixed;
+	top: 10px;
+
+
+	
+}
+
+
+/*ul for side queue*/
+#two
+{
+	position:static;
+	right: 50%;
+	top: -5%;
+	overflow: hidden;
+}
+
+
+/*side queue*/
+li {
+    
+ 
+	margin:auto;
+	padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("Pack-Shot_0.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+	transform: translate(-50px);
+	color: white;
+	font-size: 14px;
+}
+
+/*carausel img1*/
+#div1
+{
+	height: 200px;
+	width: 300px;
+	background-image:url("Dil-Ki-Baat-Kumar-Sanu-2013-500x500.jpg");
+	background-size: cover;
+
+	margin-left: 30px;
+	transition: transform .2s
+
+}
+/*carausel img2*/
+
+#div2
+{
+	height: 200px;
+	width: 300px;
+	background-image: url("Myworld2.jpg");
+	background-size: cover;
+    margin-left:30px;
+    transition: transform .2s
+}
+
+/*carausel img3*/
+#div3
+{
+	height: 200px;
+	width: 300px;
+	background-image: url("26dc9e7cfb2fb1ff9c32f8eb75ed8767.jpg");
+	background-size: cover;
+	
+	margin-left: 30px;
+	transition: transform .2s
+	
+}
+
+
+/*carausel hover*/
+#div1:hover
+{
+	transform: scale(1.2);
+
+}
+/*carausel hover*/
+#div2:hover
+{
+	transform: scale(1.2);
+	
+}
+/*carausel hover*/
+#div3:hover
+{
+	transform: scale(1.2);
+	
+}
+
+/*latest release*/
+ .latest
+{
+	position: static;
+	width: 1100px;
+	height: 300px;
+	background-color: black;
+	transform: translate(0,320px);
+
+
+}
+
+#lr1 {
+    
+ 
+	margin:auto;
+	padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("em.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 200px;
+	transform: translate(-50px);
+	color: white;
+	font-size: 14px;
+	transform: translate(-80px,-15px);
+	height: 100px;
+
+}
+
+#lr2 {
+		margin:auto;
+	padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("em.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 200px;
+	transform: translate(-50px);
+	color: white;
+	font-size: 14px;
+	transform: translate(-80px,-90px);
+	height: 200px;
+    
+ 
+
+}
+
+
+#lr3 {
+	margin:auto;
+	padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("em.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 200px;
+	color: white;
+	font-size: 14px;
+	transform: translate(400px,-360px);
+	height: 200px;
+    
+ 
+
+}
+
+#lr4 {
+	margin:auto;
+	padding: 36px 0 36px 50px;
+	list-style: none;
+	background-image: url("em.jpg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 200px;
+	color: white;
+	font-size: 14px;
+	transform: translate(400px,-780px);
+	height: 200px;
+    
+ 
+
+}
+
+#lrr
+{
+	transform: translate(150px);
+
+}
+
+#p1
+{
+	transform: translate(190px);
+}
+
+
+#p2
+{
+	transform: translate(190px,80px);
+}
+
+#p3
+{
+	transform: translate(180px,50px);
+}
+#p4
+{
+	transform: translate(180px,50px);
+}
+
+h1
+{
+	color: white;
+}
+
+.popular
+{
+	height:200px;
+	width:100%;
+	transform: translate(0px,500px);
+	display: flex;
+
+}
+
+.p1
+{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: blue;
+	background-image: url("bs.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-90px);
+}
+
+.p2
+{
+
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 20px;
+	background-image: url("kl.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-90px);
+
+}
+
+
+.p3
+{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 20px;
+	background-image: url("shakira-4.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-90px);
+
+}
+
+.p4
+{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 20px;
+	background-image: url("JLO.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-95px);
+}
+
+.p5
+{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 20px;
+	background-image: url("ar-rahman.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-90px);
+
+}
+
+.p6
+{
+
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: purple;
+	margin-left: 20px;
+	background-image: url("em2.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-90px);
+
+}
+
+h3
+{
+	transform: translate(50px,180px);
+	color: white;
+
+}
+
+#po
+{
+	transform: translate(0,-100px);
+}
+
+
+
+/*style audio bar*/
+audio
+{
+	transform: translate(300px,700px);
+	width:700px;
+}
+
+
+/*profile picture*/
+.DP
+{
+	height: 40px;
+	width: 40px;
+	background-image: url("dp2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: translate(1250px);
+	margin-top: 10px;
+	border-radius: 50%;
+
+}
